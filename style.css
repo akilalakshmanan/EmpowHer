@@ -1,0 +1,41 @@
+body {
+        text-align:center;
+        align:center;
+    }   
+label{
+    font-weight: bold;
+}
+h1{
+    text-align: justify;
+}
+.button{
+        background-color: "green";
+        border:none;
+        color:white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+}
+.button1,.button2{
+        background-color: Pink;
+        color: black;
+        border: 2px solid DeepPink;
+        border-radius: 40px 40px 40px 40px;
+        width: 300px;
+        height: 40px;
+    }
+.button1:hover{
+        background-color:lightblue;
+        color:black;
+    }
+.button2:hover{
+        background-color:lightgoldenrodyellow;
+        color:white;
+    }
+.button1{
+    font-size: x-large;
+}

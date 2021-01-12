@@ -1,0 +1,65 @@
+<html>
+
+<head>
+  <title>
+    EMPOWHER|Register
+  </title>
+  <link rel="stylesheet" href="design.css" type="text/css">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+  <div class="bg"></div>
+
+  <div class="top">
+    <ul>
+      <b>
+        <li><a href="index.php" target="blank">Home</a></li>
+        <li><a href="about.php" target="blank">About</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Exciting Jobs</a>
+          <div class="dropdown-content">
+            <a href="#">Marketing</a>
+            <a href="#">Teaching</a>
+        <li><a href="https://www.coursera.org/">Online Courses</a></li>
+        <li><a href="https://internshala.com/">Internships</a></li>
+        <li class="heading"><a href="index.php" target="blank">EMPOWHER</a></li>
+      </b>
+      <li class="heading"><a href="signin.php" target="blank">Sign In</a></li></b>
+      <li class="heading"><a href="register.html" target="blank">Register</a></li></b>
+  </div>
+  </li>
+  </ul>
+  </div>
+  <br><br> <br><br>
+  <div class="logo"><img src="rosegold1.png" width="150px"></div>
+
+  <div class="card">
+    <h2><u>Welcome to our Registration Process!</u></h2>
+
+    <form action="action.php" method="POST">
+      <label
+        for="fname">Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id="fname" name="name" placeholder="Enter name" required><br><br>
+      <label for="emailid">E-mail
+        Id</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id="email" name="emailid" placeholder="Enter e-mailid" required><br><br>
+      <label for="contactno">Contact Number</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="text" id="contactno" name="contactno" placeholder="Enter Contact number" required><br><br>
+      <label for="dob">Date of
+        Birth</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="date" id="dob" name="dob"><br><br>
+      <label
+        for="pwd">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="password" id="pwd" name="pwd" placeholder="password"><br><br>
+      <label>Gender</label>&nbsp;&nbsp;&nbsp;&nbsp;
+      <input type="radio" name="gender" id="g1" value="female">Female
+      <input type="radio" name="gender" id="g2" value="male">Male<br><br>
+      <input type="submit" name="submit" class="button button1" />
+    </form>
+
+    <h3>Already existing user ?<a href="signin.php" target="blank"> Sign In here:)</a></h3>
+  </div>
+</body>
+
+</html>
