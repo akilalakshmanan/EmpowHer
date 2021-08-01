@@ -1,3 +1,4 @@
+# EmpowHer
 Gender equality is, first and foremost, a human right. A woman is entitled to live in
 dignity and in freedom from acquiring what they want and what they aim to achieve
 in their lives. Empowering women is additionally an essential tool for advancing
